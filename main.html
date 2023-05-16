@@ -1,16 +1,89 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .card {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .card-header {
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    
+    .card-header h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    
+    .card-body {
+      padding: 20px 0;
+    }
+    
+    .price {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    
+    .frequency {
+      font-size: 14px;
+      color: #888;
+      margin-bottom: 20px;
+    }
+    
+    .features {
+      margin-bottom: 20px;
+    }
+    
+    .features ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .features li {
+      margin-bottom: 10px;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+  <div class="card">
+    <div class="card-header">
+      <h2>Premium Plan</h2>
+    </div>
+    <div class="card-body">
+      <div class="price">$19.99</div>
+      <div class="frequency">per month</div>
+      <div class="features">
+        <ul>
+          <li>Unlimited access to premium content</li>
+          <li>Download and save articles</li>
+          <li>Ad-free browsing</li>
+          <li>24/7 customer support</li>
+        </ul>
+      </div>
+      <a href="#" class="button">Get Started</a>
+    </div>
+  </div>
 </body>
 
 </html>
